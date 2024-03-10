@@ -74,13 +74,13 @@
 // |  F11  |  F1  |  F2  |  F3   |  F4   |  F5  |                |   F6  |  F7   |   F8  |  F9   |  F10  |  F12  |
 // |       |      |      |       |       |      |                |       |  N7   |   N8  |  N9   | SLASH |  STAR |
 // |  CAPS |      |      |       |       |      |                | LNLCK |  N4   |   N5  |  N6   | MINUS |  PLUS |
-// |       | UNDO | CUT  | COPY  | PASTE |      |      |  |      |   N0  |  N1   |   N2  |  N3   |       |       |
+// |       | UNDO | CUT  | COPY  | PASTE |      |      |  |      |   N0  |  N1   |   N2  |  N3   |   .   |       |
 //                |      |       |       | LGUI |      |  |      |       |       |       |       |
             bindings = <
 &kp F11    &kp F1       &kp F2       &kp F3       &kp F4       &kp F5                       &kp F6     &kp F7    &kp F8    &kp F9   &kp F10   &kp F12
 &trans     &trans       &trans       &trans       &trans       &trans                       &trans     &kp N7    &kp N8    &kp N9   &kp SLASH &kp STAR
 &kp CLCK   &trans       &trans       &trans       &trans       &trans                       &kp LNLCK  &kp N4    &kp N5    &kp N6   &kp MINUS &kp PLUS
-&trans     &kp K_UNDO   &kp K_CUT    &kp K_COPY   &kp K_PASTE  &trans   &trans    &trans    &kp N0     &kp N1    &kp N2    &kp N3   &trans    &trans
+&trans     &kp K_UNDO   &kp K_CUT    &kp K_COPY   &kp K_PASTE  &trans   &trans    &trans    &kp N0     &kp N1    &kp N2    &kp N3   &kp DOT   &trans
                         &trans       &trans       &trans       &kp LGUI &trans    &trans    &kp LGUI   &trans    &trans    &trans   &trans
             >;
 
