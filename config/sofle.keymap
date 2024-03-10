@@ -38,11 +38,11 @@
 // | SHIFT |  Z  |  X  |  C   |  V    |  B    |  MUTE  |  |       |  N    |  M   |  ,    |  .   |   /   | SHIFT |
 //               |  \  | TAB  | BKSPC | SPACE |  LOWER |  | RAISE | ENTER | DEL  | ALT   |  -   |
             bindings = <
-&kp GRAVE &kp N1 &kp N2   &kp N3   &kp N4    &kp N5                            &kp N6     &kp N7   &kp N8       &kp N9    &kp N0   &kp EQUAL
-&kp LBRC  &kp Q  &kp W    &kp E    &kp R     &kp T                             &kp Y      &kp U    &kp I        &kp O     &kp P    &kp RBRC
-&kp LCTRL &kp A  &kp S    &kp D    &kp F     &kp G                             &kp H      &kp J    &kp K        &kp L     &kp SEMI &kp SQT
-&kp LSHFT &kp Z  &kp X    &kp C    &kp V     &kp B      &kp C_MUTE  &none      &kp N      &kp M    &kp COMMA    &kp DOT   &kp FSLH &kp RSHFT
-                 &kp BSLH &kp TAB  &kp BSPC  &kp SPACE  &mo LOWER   &mo RAISE  &kp RET    &kp DEL  &kp RALT     &kp MINUS
+&kp GRAVE &kp N1 &kp N2   &kp N3    &kp N4    &kp N5                            &kp N6     &kp N7   &kp N8       &kp N9    &kp N0   &kp EQUAL
+&kp LBRC  &kp Q  &kp W    &kp E     &kp R     &kp T                             &kp Y      &kp U    &kp I        &kp O     &kp P    &kp RBRC
+&kp TAB   &kp A  &kp S    &kp D     &kp F     &kp G                             &kp H      &kp J    &kp K        &kp L     &kp SEMI &kp SQT
+&kp LSHFT &kp Z  &kp X    &kp C     &kp V     &kp B      &kp C_MUTE  &none      &kp N      &kp M    &kp COMMA    &kp DOT   &kp FSLH &kp RSHFT
+                 &kp BSLH &kp LCTRL &kp BSPC  &kp SPACE  &mo LOWER   &mo RAISE  &kp RET    &kp DEL  &kp RALT     &kp MINUS
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -72,14 +72,14 @@
             display-name = "raise";
 // ------------------------------------------------------------------------------------------------------------
 // |  F11  |  F1  |  F2  |  F3   |  F4   |  F5  |                |   F6  |  F7   |   F8  |  F9   |  F10  |  F12  |
-// |  CAPS |      |      |       |       |      |                | LNLCK |  N7   |   N8  |  N9   | SLASH |  STAR |
-// |       |      |      |       |       |      |                |       |  N4   |   N5  |  N6   | MINUS |  PLUS |
+// |       |      |      |       |       |      |                |       |  N7   |   N8  |  N9   | SLASH |  STAR |
+// |  CAPS |      |      |       |       |      |                | LNLCK |  N4   |   N5  |  N6   | MINUS |  PLUS |
 // |       | UNDO | CUT  | COPY  | PASTE |      |      |  |      |   N0  |  N1   |   N2  |  N3   |       |       |
 //                |      |       |       | LGUI |      |  |      |       |       |       |       |
             bindings = <
 &kp F11    &kp F1       &kp F2       &kp F3       &kp F4       &kp F5                       &kp F6     &kp F7    &kp F8    &kp F9   &kp F10   &kp F12
-&kp CLCK   &trans       &trans       &trans       &trans       &trans                       &kp LNLCK  &kp N7    &kp N8    &kp N9   &kp SLASH &kp STAR
-&trans     &trans       &trans       &trans       &trans       &trans                       &trans     &kp N4    &kp N5    &kp N6   &kp MINUS &kp PLUS
+&trans     &trans       &trans       &trans       &trans       &trans                       &trans     &kp N7    &kp N8    &kp N9   &kp SLASH &kp STAR
+&kp CLCK   &trans       &trans       &trans       &trans       &trans                       &kp LNLCK  &kp N4    &kp N5    &kp N6   &kp MINUS &kp PLUS
 &trans     &kp K_UNDO   &kp K_CUT    &kp K_COPY   &kp K_PASTE  &trans   &trans    &trans    &kp N0     &kp N1    &kp N2    &kp N3   &trans    &trans
                         &trans       &trans       &trans       &kp LGUI &trans    &trans    &kp LGUI   &trans    &trans    &trans   &trans
             >;
