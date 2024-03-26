@@ -81,7 +81,7 @@
 &trans     &trans      &trans      &trans      &trans       &trans                        &trans     &kp N7    &kp N8    &kp N9   &kp SLASH  &kp STAR
 &kp CLCK   &trans      &trans      &trans      &trans       &trans                        &kp LNLCK  &kp N4    &kp N5    &kp N6   &kp MINUS  &kp PLUS
 &trans     &kp K_UNDO  &kp K_CUT   &kp K_COPY  &kp K_PASTE  &trans   &trans   &trans      &kp N0     &kp N1    &kp N2    &kp N3   &kp DOT    &trans
-                       &trans      &trans      &trans       &trans   &kp LGUI &kp K_CMENU &kp LGUI   &trans    &trans    &trans   &trans
+                       &trans      &trans      &trans       &trans   &trans   &kp K_CMENU &kp LGUI   &trans    &trans    &trans   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
